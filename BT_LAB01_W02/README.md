@@ -1,5 +1,4 @@
+Câu 6: Sử dụng các filter khử nhiễu đã học để xử lý ảnh trong thư mục Exercise. Cho biết filter nào khử nhiễu tốt nhất.
 
- Bài 1: Viết chương trình nạp một ảnh và lưu thành 3 ảnh với 3 màu khác nhau (RGB)
-import numpy as np                    # Xử lý ma trận ảnh (NumPy)
-import imageio.v2 as iio              # Đọc/ghi ảnh
-import matplotlib.pyplot.pylab as plt # Hiển thị ảnh
+![image](https://github.com/user-attachments/assets/776bd502-ef57-42f4-88b0-f31456207522)
+![Uploading image.png…]()
