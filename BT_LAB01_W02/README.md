@@ -41,7 +41,7 @@ for fname in os.listdir('exercise'):
         print('Xử lý ảnh:', fname)
 
         
- # Bước 1: Đọc ảnh
+ Bước 1: Đọc ảnh
  a = iio.imread(path)       
 
 Nếu ảnh là RGB (3 kênh):
@@ -63,6 +63,8 @@ Sinh ra một thứ tự ngẫu nhiên của [0, 1, 2] — ví dụ [2, 0, 1].
 
 iio.imwrite(f'picture/rgb_random_{fname}', b)
 Lưu ảnh đã đổi màu vào thư mục picture/ với tên mới.
+
+
 
 
 
