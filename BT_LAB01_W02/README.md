@@ -77,6 +77,6 @@ colorsys.rgb_to_hsv -colorsys.hsv_to_rgb	 	Chuyển từ RGB sang HSV và ngư�
 np.mod(h + random, 1)	 Xoay vòng giá trị Hue để đổi màu
 np.clip(s * factor, 0, 1)	 Điều chỉnh độ bão hòa (đậm nhạt) và độ sáng
 np.stack([r,g,b], axis=2)	Ghép lại thành ảnh màu hoàn chỉnh
-
+sau khi xử lý bằng code thì lưu ảnh vào file picture
 hệ màu HSV rất thuận tiện cho việc điều chỉnh màu sắc bằng cách thay đổi H, S, V một cách ngẫu nhiên, ta có thể tạo ra nhiều phiên bản màu khác nhau từ cùng một ảnh gốc, trong khi vẫn giữ được hình dạng và nội dung ảnh
- 
+
