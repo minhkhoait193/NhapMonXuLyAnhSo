@@ -1,4 +1,4 @@
-1.1
+![image](https://github.com/user-attachments/assets/9ebcb31d-72aa-481f-b9f6-5a87f5283643)1.1
 ------
 ![image](https://github.com/user-attachments/assets/557e572c-036c-4fc1-a6b9-d170e5302670)
 Mở ảnh grayscale 'world_cup.jpg'
@@ -72,7 +72,9 @@ Hiệu quả đặc biệt rõ nếu ảnh gốc có vùng tối hoặc vùng s�
 
 1.6.2
 ------
---- Butterworth lowpass filter
+
+Butterworth lowpass filter
+---
 | Phần                  | Vai trò                                |
 | --------------------- | -------------------------------------- |
 | `fft2`                | Biến đổi Fourier 2D                    |
@@ -91,7 +93,9 @@ Tăng tl (order) → làm lọc gắt hơn (steeper cutoff)
 ![image](https://github.com/user-attachments/assets/e3318494-8381-4017-8dca-c307b2f42658)
 
 
---- butterworth highpass filter
+butterworth highpass filter
+---
+
 fft2() & ifft2()	Biến đổi và đảo ngược Fourier
 H[i, j] = ...	Công thức Butterworth lọc thấp
 d_0	Cắt tần số cao hơn bán kính này
