@@ -33,6 +33,7 @@ Chuẩn hóa kết quả bằng cách chia cho log(1 + b2) (với b2 là giá tr
 Nhân 128.0 để giữ ảnh ở độ tương phản trung bình (có thể thay đổi thành 255.0 nếu muốn full scale)
 
 Kết quả: ảnh sẽ có độ tương phản cao hơn ở vùng tối → giúp làm sáng những vùng tối.
+
 1.4
 ------
 np.histogram tạo histogram ảnh
