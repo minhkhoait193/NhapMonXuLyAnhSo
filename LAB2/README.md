@@ -1,11 +1,15 @@
 1.1
+------
 ![image](https://github.com/user-attachments/assets/557e572c-036c-4fc1-a6b9-d170e5302670)
 Mở ảnh grayscale 'world_cup.jpg'
 
 Đảo ngược màu (inversion: trắng thành đen, đen thành trắng)
 
 Hiển thị cả ảnh gốc (img.show()) và ảnh đã xử lý (plt.imshow())
+
+
 1.2
+------
 ![image](https://github.com/user-attachments/assets/3b71b060-3900-4276-ac6a-4ef2c49add1c)
 
 Đây là gamma correction với gamma = 0.5:
@@ -17,7 +21,10 @@ Hiển thị ảnh gốc và ảnh sau khi xử lý
 sau khi chuyển gamma = 5 
 ![image](https://github.com/user-attachments/assets/b903e9e9-c965-4933-90a5-6df3f4fa1e14)
 Ảnh đầu ra sẽ rất tối, gần như đen, chỉ các vùng rất sáng mới hiện một chút.
+
+
 1.3
+------
 ![image](https://github.com/user-attachments/assets/99eae6ef-7855-4535-a96f-017dcbef6135)
 np.log(1 + b1): áp dụng phép biến đổi logarit cho từng điểm ảnh (tránh log(0))
 
