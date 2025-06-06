@@ -34,6 +34,7 @@ Nhân 128.0 để giữ ảnh ở độ tương phản trung bình (có thể th
 
 Kết quả: ảnh sẽ có độ tương phản cao hơn ở vùng tối → giúp làm sáng những vùng tối.
 1.4
+------
 np.histogram tạo histogram ảnh
 cdf = hist.cumsum() tính hàm phân phối tích lũy
 cdf_m chuẩn hóa CDF về [0–255]
@@ -44,6 +45,7 @@ Hiệu quả đặc biệt rõ nếu ảnh gốc có vùng tối hoặc vùng s�
 ![image](https://github.com/user-attachments/assets/04baacb3-4753-4a45-a7c6-b87224079415)
 
 1.5
+------
 | Bước                             | Mục tiêu                                             |
 | -------------------------------- | ---------------------------------------------------- |
 | `a = im1.min()`, `b = im1.max()` | Lấy giá trị pixel nhỏ nhất và lớn nhất               |
@@ -53,7 +55,10 @@ Hiệu quả đặc biệt rõ nếu ảnh gốc có vùng tối hoặc vùng s�
 
 ![image](https://github.com/user-attachments/assets/c0ee8e18-36c1-4ee3-97e6-22940614da99)
 Ảnh sẽ có độ tương phản cao hơn, vùng tối và sáng rõ ràng hơn — đặc biệt hiệu quả khi ảnh ban đầu bị "mờ xám" hoặc có dải sáng hẹp.
+
 1.6.1
+------
+
 ![image](https://github.com/user-attachments/assets/e0b4f3fb-42ee-4af8-9747-affcd752c27d)
 | Phần                | Vai trò                                 |
 | ------------------- | --------------------------------------- |
@@ -65,6 +70,7 @@ Hiệu quả đặc biệt rõ nếu ảnh gốc có vùng tối hoặc vùng s�
 | `astype(np.uint8)`  | Chuyển về kiểu ảnh grayscale tiêu chuẩn |
 
 1.6.2
+------
 --- Butterworth lowpass filter
 | Phần                  | Vai trò                                |
 | --------------------- | -------------------------------------- |
