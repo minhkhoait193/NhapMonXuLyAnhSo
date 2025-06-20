@@ -61,8 +61,16 @@ cau 2
 -
 ![image](https://github.com/user-attachments/assets/69566c3c-4e0a-447a-9c6f-605be5872a83)
 -
+Chương trình tạo menu cho phép người dùng chọn một trong ba phương pháp xử lý ảnh theo miền tần số:
 
-![image](https://github.com/user-attachments/assets/79cf6816-ddc9-40a8-84b6-6dc4104af3ae)
+F – Fast Fourier Transform (FFT):
+Biến đổi ảnh từ không gian không gian (spatial domain) sang miền tần số để phân tích phổ tần số.
+
+L – Butterworth Lowpass Filter:
+Lọc tần số thấp, giúp làm mượt ảnh và loại bỏ chi tiết tần số cao (nhiễu).
+
+H – Butterworth Highpass Filter:
+Lọc tần số cao, giúp làm nổi bật các cạnh và chi tiết nhỏ trong ảnh.
 
 cau 3
 =
@@ -70,6 +78,14 @@ cau 3
 -
 ![image](https://github.com/user-attachments/assets/ab6fb31c-83f9-41d1-9434-301dce799671)
 -
+Đảo thứ tự kênh màu RGB một cách ngẫu nhiên:
+Mỗi ảnh màu được tráo đổi thứ tự các kênh R, G, B để tạo hiệu ứng màu khác biệt.
+Chọn ngẫu nhiên một phép biến đổi trong Câu 1 để áp dụng cho ảnh đã chuyển sang grayscale, gồm:
+Image Inverse
+Gamma Correction
+Log Transformation
+Histogram Equalization
+Contrast Stretching
 
 cau 4
 =
@@ -77,7 +93,22 @@ cau 4
 -
 ![image](https://github.com/user-attachments/assets/0f9153ce-4275-4b33-80ac-aa6ecea16b14)
 -
+Đảo thứ tự kênh màu RGB một cách ngẫu nhiên:
+Tương tự Câu 3, tráo đổi thứ tự các kênh R, G, B để thay đổi màu sắc ảnh.
 
+Chọn ngẫu nhiên một phép biến đổi tần số trong Câu 2:
+
+Fast Fourier Transform (FFT)
+
+Butterworth Lowpass Filter
+
+Butterworth Highpass Filter
+
+Áp dụng thêm bộ lọc không gian phù hợp:
+
+Nếu chọn Lowpass, áp dụng thêm Min Filter (lọc lấy giá trị nhỏ nhất trong vùng lân cận) để tăng hiệu ứng làm mượt.
+
+Nếu chọn Highpass, áp dụng thêm Max Filter (lọc lấy giá trị lớn nhất) để làm rõ chi tiết biên
 
 
 
