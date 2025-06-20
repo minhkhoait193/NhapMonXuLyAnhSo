@@ -1,5 +1,9 @@
 
- Bài 1: Viết chương trình nạp một ảnh và lưu thành 3 ảnh với 3 màu khác nhau (RGB)
-import numpy as np                    # Xử lý ma trận ảnh (NumPy)
-import imageio.v2 as iio              # Đọc/ghi ảnh
-import matplotlib.pyplot.pylab as plt # Hiển thị ảnh
+#1. Chức năng:
+Nhập phím I, G, L, H, hoặc C → áp dụng thuật toán tương ứng cho ảnh trong thư mục exercise
+Tự động lưu ảnh kết quả và hiển thị bằng matplotlib
+def inverse_transform(img):
+    return 255 - img
+
+Lật ngược độ sáng: pixel càng sáng → càng tối và ngược lại.
+
