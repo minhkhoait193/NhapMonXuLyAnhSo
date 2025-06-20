@@ -57,5 +57,29 @@ Ví dụ: input.jpg + lựa chọn G → input_gamma.png
 
 cau 2
 =
+![image](https://github.com/user-attachments/assets/ad3492ac-d3f3-4dc6-acef-39265f7a26ed)
+-
+![image](https://github.com/user-attachments/assets/69566c3c-4e0a-447a-9c6f-605be5872a83)
+-
+
+![image](https://github.com/user-attachments/assets/79cf6816-ddc9-40a8-84b6-6dc4104af3ae)
+
+cau 3
+=
+![image](https://github.com/user-attachments/assets/89a71ca7-c61f-48de-bf0c-f090759dea27)
+-
+![image](https://github.com/user-attachments/assets/ab6fb31c-83f9-41d1-9434-301dce799671)
+-
+
+cau 4
+=
+![image](https://github.com/user-attachments/assets/bd6d787a-00c3-4709-adee-1e0d8757ed19)
+-
+![image](https://github.com/user-attachments/assets/0f9153ce-4275-4b33-80ac-aa6ecea16b14)
+-
+
+
+
+
 
 
