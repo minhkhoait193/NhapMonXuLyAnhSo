@@ -9,4 +9,5 @@ def inverse_transform(img):
     return 255 - img
 Lật ngược độ sáng: pixel càng sáng → càng tối và ngược lại.
 
-# Gamma Correction
+Gamma Correction
+=
