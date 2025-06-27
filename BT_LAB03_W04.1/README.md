@@ -11,6 +11,7 @@ câu 2
 | `(50, -30)`      | Dịch xuống 50px và **trái 30px** | Ảnh bị đẩy ra dưới-trái, xuất hiện khoảng trống trên/phải     |
 Khi thay đổi giá trị âm ở trục x, ảnh dịch về bên trái, dẫn đến một phần ảnh bị mất và xuất hiện vùng đen bên phải.
 Tương tự, khi tăng giá trị ở trục y (ví dụ 50), ảnh dịch xuống dưới, và vùng đen xuất hiện ở phía trên.
+
 ![image](https://github.com/user-attachments/assets/025dcc42-ed28-4756-8955-284d39885ec4)
 
 câu 3
@@ -19,6 +20,7 @@ câu 3
 | ------------------- | ------------------------------------------------------------- |
 | **Phóng to 3 lần**  | Ảnh lớn hơn, chi tiết bị mờ nếu dùng nội suy mặc định         |
 | **Thu nhỏ 0.3 lần** | Ảnh nhỏ lại, mất nhiều chi tiết, có thể bị nhòe hoặc răng cưa |
+
 ![image](https://github.com/user-attachments/assets/6e93250b-b5e2-41e4-abbc-05d3e9c226d6)
 
 câu 4
@@ -30,6 +32,7 @@ câu 4
 |  Khi nào nên dùng? | Khi bạn muốn **giữ toàn bộ nội dung ảnh**       | Khi muốn ảnh xoay mà vẫn **giữ nguyên kích thước** (dùng cho overlay, mask, v.v.) |
 reshape=True → không mất dữ liệu nhưng ảnh to ra, có phần nền đen.
 reshape=False → giữ kích thước, nhưng mất một phần ảnh do bị cắt.
+
 ![image](https://github.com/user-attachments/assets/3068004b-da33-41b7-b2be-407526dd4174)
 
 câu 5.1 Dilation và Erosion
@@ -49,5 +52,6 @@ câu 5.2 thay đổi hàm GeoFun cos = sin
 | `cos` (gốc)         | Hình ảnh bị biến dạng dạng sóng đều, co giãn theo trục x và y             |
 | `sin`               | Tương tự `cos` nhưng tạo hiệu ứng uốn lượn mềm hơn                        |
 | Radial (sóng tròn)  | Làm ảnh bị bóp méo theo hướng tâm, thường dùng để làm hiệu ứng nghệ thuật |
+
 ![image](https://github.com/user-attachments/assets/d3a55f0d-33fb-4698-956e-d3f18993ca9a)
 
